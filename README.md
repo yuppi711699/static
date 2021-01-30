@@ -1,4 +1,2 @@
-# React-Static - Basic Template
 
-To use this template, run `react-static create` and use the `basic` template.
-# static
+И таки завем вам этот репозиторий? 

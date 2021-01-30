@@ -9,15 +9,15 @@ import orderImg from '../img/order.png'
 // import AwsSliderStyles from './styles.scss';
 import styles from './styles.scss';
 // import Slider from './slider.jsx'
-
-export default function Slider() {
+const SliderBlock = () => (
  
-  return (
+  // return (
     <>
     {/* <Slider></Slider> */}
     
     <div>
-      <h1>It's blog time.</h1>
+      <br></br>
+      {/* <h1>It's blog time.</h1> */}
       <div>
         <a href="#bottom" id="top">
           Scroll to bottom!
@@ -56,7 +56,8 @@ export default function Slider() {
       </a>
     </div>
     </>
-  )
-}
+  // )
+)
 
 
+export default SliderBlock;

@@ -1,6 +1,6 @@
 import React from 'react'
 // const widthWind = window.innerWidht
-export default () => (
+const CalculateCar = () => (
   // <!--Mdoffice.com.ua -->
   <div  >
     <center>
@@ -11,3 +11,5 @@ export default () => (
 </div>
 // <!--//Mdoffice.com.ua-->
 )
+
+export default CalculateCar

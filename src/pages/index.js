@@ -1,5 +1,8 @@
 import React from 'react'
+import CalculateCar from '../containers/Dynamic';
 import imgMain from '../img/mainFinish.jpg'
+import About from './about';
+import SliderBlock from './blog'
 let montseratFont = require('typeface-montserrat');
 // import p from url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 // import PlayFairFont from '../fonts/';
@@ -80,7 +83,7 @@ const mainAddTextStyles = {
   // fontWeight: 'bold',
   // textTransform: 'uppercase',
 }
-const MainPage = () => (
+const FirstBlock = () => (
 
 
 
@@ -103,6 +106,14 @@ const MainPage = () => (
     <h2 style={mainAddTextStyles}>У нас вы найдете свой автомобиль</h2>
   </div>
 
+)
+const MainPage = () => (
+  <>
+  <FirstBlock/>
+  <About/>
+  <SliderBlock/>
+  <CalculateCar/>
+</>
 )
 export default MainPage;
 

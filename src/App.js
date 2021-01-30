@@ -5,7 +5,7 @@ import { Link, Router } from 'components/Router'
 import Dynamic from 'containers/Dynamic'
 
 import './app.css'
-import About from './pages/about'
+
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
@@ -14,7 +14,8 @@ function App() {
   return (
     <Root>
       <nav>
-        <Link to="/">Главная</Link>
+        <Link to="/">ЮГ АВТОТРАНС</Link>
+        <Link to="/">                         </Link>
         <Link to="/about">О НАС</Link>
         <Link to="/blog">Машины</Link>
         <Link to="/dynamic">Расчет</Link>
@@ -27,7 +28,6 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-      <About/>
     </Root>
   )
 }
